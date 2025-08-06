@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+
+
+/********************************************************
+
+    body 기본 설정 및 스크롤 설정
+
+********************************************************/
+
+body {max-width:1920px; height:100%; text-align:center; margin:0 auto;}
+
+body::-webkit-scrollbar {width:12px;}
+body::-webkit-scrollbar-thumb {background:#999; border-radius:20px;}
+body::-webkit-scrollbar-track {background:#fefefe;}
+
+
+
+@media screen and (max-width:1400px) {
+}
+
+@media screen and (max-width:1280px) {
+}
+
+@media screen and (max-width:1000px) {
+}
+
+@media screen and (max-width:760px) {
+}
+
+@media screen and (max-width:680px) {
+}
+
+@media screen and (max-width:480px) {
+}
+
+@media screen and (max-width:360px) {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************************************************
+
+    body 기본 설정 및 스크롤 설정
+
+********************************************************/
+
+#nav_pc {display:flex; justify-content:space-between; align-items:center; padding:0 40px; background:#fff; border-bottom:1px solid #ddd; position:relative;}
+
+/* 로고 */
+.logo {font-size: 24px; font-weight: bold;}
+
+/* 드롭다운 메뉴 */
+.pc_menu {list-style:none; display:flex; gap:40px; position:relative; z-index:20;}
+.pc_menu li {position:relative;}
+.pc_menu li a.dep1 {display:block; text-decoration:none; color:#333; font-size:16px; padding:25px 12px;}
+.pc_menu li a.dep1:hover {color:#0749ff; font-weight:700;}
+
+.pc_menu .dep2 {display:none; list-style:none; position:absolute; top:100%; left:0; background:#fff; border:1px solid #ccc; min-width:160px; z-index:100;}
+.pc_menu .dep2 li a {display: block; padding: 10px 15px; text-decoration: none; color: #333; font-size: 14px;}
+.pc_menu .dep2 li a:hover {background:#f2f2f2;}
+
+/* 오른쪽 아이콘 */
+.right_icon {list-style:none; display:flex; gap:20px; z-index:20;}
+.right_icon li a i {font-size:28px; color:#333;}
+

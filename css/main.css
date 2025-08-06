@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+
+/********************************************************
+
+    main background
+
+********************************************************/
+
+.main_con {background:linear-gradient(rgba(0, 0, 0, 0.4)), url(../img/main/main_bg.jpg) no-repeat; background-size:cover; width:100%; height:calc(100vh - 74px); display:flex; align-items:center; justify-content:center; flex-direction:column;}
+.main_con h2 {font-size:46px; font-weight:700; color:#fff;}
+.main_con p {font-size:26px; margin-top:15px; font-weight:400; color:#eee;}
+
+
+@media screen and (max-width:1400px) {
+}
+
+@media screen and (max-width:1280px) {
+}
+
+@media screen and (max-width:1000px) {
+}
+
+@media screen and (max-width:760px) {
+}
+
+@media screen and (max-width:680px) {
+}
+
+@media screen and (max-width:480px) {
+}
+
+@media screen and (max-width:360px) {
+}

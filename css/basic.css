@@ -1,0 +1,170 @@
+@charset "utf-8";
+
+
+
+/********************************************************
+
+    font
+
+********************************************************/
+
+
+/*-----------------------------------------------------------------------------
+    G마켓산스
+*----------------------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'GmarketSans';
+    src: url('../font/GmarketSans/woff2/GmarketSansBold.woff2') format('woff2'),
+        url('../font/GmarketSans/woff/GmarketSansBold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSans';
+    src: url('../font/GmarketSans/woff2/GmarketSansMedium.woff2') format('woff2'),
+        url('../font/GmarketSans/woff/GmarketSansMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSans';
+    src: url('../font/GmarketSans/woff2/GmarketSansLight.woff2') format('woff2'),
+        url('../font/GmarketSans/woff/GmarketSansLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+/*-----------------------------------------------------------------------------
+    에스코어드림
+*----------------------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'SCDream';
+    src: url('../font/SCDream/woff2/SCDream1.woff2') format('woff2'),
+        url('../font/SCDream/woff/SCDream1.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SCDream';
+    src: url('../font/SCDream/woff2/SCDream2.woff2') format('woff2'),
+        url('../font/SCDream/woff/SCDream2.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SCDream';
+    src: url('../font/SCDream/woff2/SCDream3.woff2') format('woff2'),
+        url('../font/SCDream/woff/SCDream3.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SCDream';
+    src: url('../font/SCDream/woff2/SCDream4.woff2') format('woff2'),
+        url('../font/SCDream/woff/SCDream4.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SCDream';
+    src: url('../font/SCDream/woff2/SCDream5.woff2') format('woff2'),
+        url('../font/SCDream/woff/SCDream5.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SCDream';
+    src: url('../font/SCDream/woff2/SCDream6.woff2') format('woff2'),
+        url('../font/SCDream/woff/SCDream6.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SCDream';
+    src: url('../font/SCDream/woff2/SCDream7.woff2') format('woff2'),
+        url('../font/SCDream/woff/SCDream7.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SCDream';
+    src: url('../font/SCDream/woff2/SCDream8.woff2') format('woff2'),
+        url('../font/SCDream/woff/SCDream8.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SCDream';
+    src: url('../font/SCDream/woff2/SCDream9.woff2') format('woff2'),
+        url('../font/SCDream/woff/SCDream9.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************************************************
+
+    초기화
+
+********************************************************/
+
+ 
+*{
+	font-family:'SCDream','Noto Sans KR','Roboto',"Malgun Gothic", sans-serif;
+	margin:0;
+	padding:0;
+	letter-spacing:-0.04em;
+    box-sizing:border-box;
+}
+
+html {font-size: 100%; scroll-behavior: smooth;}
+body {width: 100%; font-size: 1rem; background:#ffffff; color: #333; font-weight: 400; word-break: keep-all; overflow: hidden;}
+
+body.no-scroll {overflow: hidden; height: 100%;}
+
+img {vertical-align:middle; max-width:100%;}   
+
+li {list-style:none}
+
+table {border-collapse: collapse; width: 100%; table-layout: fixed; vertical-align: middle; text-align: center;}
+
+caption {position:absolute; left:-10000px;}
+
+a {color: #333; text-decoration: none; transition: all 0.3s ease;}
+
+input,button,select {color: #333; vertical-align: middle; font-size: 16px; border: 1px solid #ddd; padding: 8px 10px;}
+select {background-color: #fff;}
+button {background-color: transparent; border: none; cursor: pointer;}
+input:focus, select:focus, option:focus, textarea:focus, button:focus{outline: none;}
+
+blockquote,fieldset,iframe{border:0}
+
+address {font-style: normal;}
+
+label {cursor: pointer;}
+
+article,aside,details,figcaption,figure,footer,header,nav,section {display:block; width: 100%;}
