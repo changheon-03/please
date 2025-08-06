@@ -10,7 +10,7 @@ body {
 
 /* 전체 페이지 컨테이너 */
 .trial-page {
-  height: calc(100vh - 64px);
+  height: 878px;
   width: 100;
   display: flex;
   flex-direction: column;

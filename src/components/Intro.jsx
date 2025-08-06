@@ -1,6 +1,7 @@
 import React from 'react';
 import './Intro.css';
 import Rabel from '../assets/Rabel.jpg'
+import Rabel2 from '../assets/Rabel2.jpg'
 // 아이콘 import (react-icons)
 import {
   FiCamera,
@@ -124,7 +125,7 @@ const Intro = () => {
         <h2>결과 예시</h2>
         <div className="sample-images">
           <img src={Rabel} alt="YOLO 박스가 그려진 라벨 사진" />
-          <img src={""} alt="추출된 OCR 텍스트 예시" />
+          <img src={Rabel2} alt="추출된 OCR 텍스트 예시" />
         </div>
       </section>
     </main>

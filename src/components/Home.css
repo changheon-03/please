@@ -2,7 +2,7 @@
   background-image: url('C:\Users\SAMSUNG\Desktop\Real\project\public\images\홈화면.jpg');
   background-size: cover;
   background-position: center;
-  height: calc(100vh - 64px); /* 헤더 높이만큼 빼서 스크롤 방지 */
+  height: 878px; /* 헤더 높이만큼 빼서 스크롤 방지 */
   width: 100; /* 컴테이너 전체 너비 채우기 */
   position: relative;
   display: flex;
