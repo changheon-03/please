@@ -1,0 +1,203 @@
+/* 폰트 및 기본 페이지 설정 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #333; /* 전체 텍스트 기본 색상 */
+  background: linear-gradient(135deg, #f4f8ff 0%, #ffffff 100%);
+}
+
+/* 전체 페이지 컨테이너 */
+.trial-page {
+  height: calc(100vh - 64px);
+  width: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 100px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 페이지 타이틀 */
+.page-title {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #333; /* 강조 색상만 파란색 */
+  margin-bottom: 40px;
+}
+
+/* 메인 컨텐츠 영역 */
+.main-content {
+  display: flex;
+  width: 100%;
+  max-width: 900px;
+  gap: 30px;
+}
+
+/* 좌우 패널 공통 스타일 */
+.panel {
+  flex: 1;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 40px;
+  transition: all 0.3s ease;
+  height: 500px;
+}
+
+.panel h2 {
+  font-size: 1.6rem;
+  color: #333; /* 타이틀도 검정 */
+  margin: 0 0 15px 0;
+}
+
+/* 우측 패널 전용 스타일 */
+.output-panel {
+  align-items: center;
+}
+
+/* 버튼 공통 */
+.btn {
+  padding: 16px 32px;
+  font-size: 1.1rem;
+  border-radius: 12px;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* 주요 버튼 */
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 15px rgba(0, 123, 255, 0.2);
+}
+
+/* 보조 버튼 */
+.btn-secondary {
+  background-color: #f1f3f5;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+.btn-secondary:hover {
+  background-color: #e2e6ea;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.05);
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* 파일 업로드 input 숨김 */
+.file-input {
+  display: none;
+}
+
+/* 결과 표시 */
+.output-placeholder {
+  font-size: 1.5rem;
+  color: #aaa;
+  line-height: 1.6;
+}
+
+.image-preview {
+  max-width: 100%;
+  max-height: 450px;
+  border-radius: 10px;
+  border: 2px dashed #007bff;
+}
+
+/* 로딩 텍스트 */
+.loading-text {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #333;
+}
+
+/* 결과 박스 */
+.result-box {
+  width: 100%;
+  padding: 30px;
+  border-radius: 10px;
+  border: 2px solid;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.result-box.normal {
+  background-color: #e6f4ff;
+  border-color: #007bff;
+}
+
+.result-box.defective {
+  background-color: #fff0f0;
+  border-color: #ff4d4f;
+}
+
+.result-box .result-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+  color: #333;
+}
+
+.result-box.normal .result-title {
+  color: #007bff;
+}
+
+.result-box.defective .result-title {
+  color: #ff4d4f;
+}
+
+.result-box .result-title span {
+  font-size: 2rem;
+}
+
+.result-box hr {
+  margin: 20px 0;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
+.result-box .ocr-text {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #333;
+  margin: 0;
+  text-align: left;
+}
+
+.result-box .ocr-text span {
+  white-space: pre-wrap;
+  line-height: 1.6;
+}
+
+/* 홈 버튼 */
+.home-button {
+  margin-top: 40px;
+  max-width: 300px;
+}
