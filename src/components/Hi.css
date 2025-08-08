@@ -1,0 +1,91 @@
+.hi-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #212529;
+}
+
+/* Hero 메시지 */
+.hi-hero {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.hi-hero h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.highlight {
+  color: #007bff;
+}
+
+.hi-hero p {
+  color: #6c757d;
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+}
+
+/* 섹션 타이틀 */
+.section-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  border-bottom: 3px solid #007bff;
+  display: inline-block;
+  margin-bottom: 1.2rem;
+}
+
+/* 인삿말 */
+.hi-message {
+  margin-bottom: 3rem;
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* 핵심 가치 */
+.hi-values {
+  margin-bottom: 3rem;
+}
+
+.values-grid {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.value-card {
+  flex: 1;
+  min-width: 200px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.value-card h3 {
+  color: #007bff;
+  margin-bottom: 0.6rem;
+}
+
+/* 비전 & 미션 */
+.hi-vision-mission {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.vision-box, .mission-box {
+  flex: 1;
+  min-width: 250px;
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.vision-box h3,
+.mission-box h3 {
+  color: #007bff;
+  margin-bottom: 0.8rem;
+}

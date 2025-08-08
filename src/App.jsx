@@ -5,6 +5,7 @@ import Home from './components/Home';
 import QuestionForm from './components/QuestionForm';
 import Trial from './components/Trial'; // 체험 페이지 추가
 import Intro from './components/Intro';
+import Hi from './components/Hi'; // Hi 컴포넌트 추가
 import './App.css';
 
 function App() {
@@ -49,6 +50,8 @@ function App() {
       // 다른 페이지 케이스를 여기에 추가할 수 있습니다.
       case 'intro':
         return <Intro navigate={navigate} />;
+      case 'hi': // Hi 컴포넌트 추가
+        return <Hi navigate={navigate} />;
       default:
         return <Home />;
     }

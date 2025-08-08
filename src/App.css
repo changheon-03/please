@@ -11,14 +11,22 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f4f6f8;
-  overflow-y: auto; /* 일반 스크롤 복원 */
+  background-color: #f4f6f8; /* 일반 스크롤 복원 */
+  width: 100%;
 }
 
 #root {
   width: 100%;
-  /* max-width: 1200px; <- 제거 */
-  /* margin: 0 auto; <- 제거 */
-  background-color: #fff;
-  min-height: 100vh;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }

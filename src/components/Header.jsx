@@ -9,7 +9,7 @@ const Header = ({ navigate }) => {
     {
       title: '회사소개',
       items: [
-        { name: '인사말', page: 'greeting' },
+        { name: '인사말', page: 'hi' },
         { name: '홍보영상', page: 'promo' }
       ]
     },
